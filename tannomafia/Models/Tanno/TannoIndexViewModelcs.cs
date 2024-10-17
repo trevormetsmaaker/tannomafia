@@ -1,11 +1,11 @@
 ﻿namespace tannomafia.Models.Tannos
 {
 
-    public enum TitanType
+    public enum TannoType
     {
         Happy, Sad, Angry, High, Hungry, Drunk
     }
-public enum TitanStatus
+public enum TannoStatus
     {
         Dead, Alive,High, Drinking, Eating, Smoking
     }
@@ -14,24 +14,24 @@ public enum TitanStatus
 
 
 
-    public class TannoIndexViewModelcs
+    public class TannoIndexViewModel
     {
         public Guid ID { get; set; }
-        public string TitanName { get; set; }
-        public int TitanHealth { get; set; }
-        public int TitanXP { get; set; }
-        public int TitanXPNextLevel { get; set; }
-        public int TitanLevel { get; set; }
-        public TitanType TitanType { get; set; }
-        public TitanStatus TitanStatus { get; set; }
+        public string TannoName { get; set; }
+        public int TannoHealth { get; set; }
+        public int TannoXP { get; set; }
+        public int TannoXPNextLevel { get; set; }
+        public int TannoLevel { get; set; }
+        public  TannoType TannoType { get; set; }
+        public TannoStatus TannoStatus { get; set; }
         public int PrimaryAttackPower { get; set; }
         public string PrimaryAttackName { get; set; }
         public int SecondaryAttackPower { get; set; }
         public string SecondaryAttackName { get; set; }
         public int SpecialAttackPower { get; set; }
         public string SpecialAttackName { get; set; }
-        public DateTime TitanWasBorn { get; set; }
-        public DateTime TitanDied { get; set; }
+        public DateTime TannoWasBorn { get; set; }
+        public DateTime TannoDied { get; set; }
 
         //db only
         public DateTime CreatedAt { get; set; }

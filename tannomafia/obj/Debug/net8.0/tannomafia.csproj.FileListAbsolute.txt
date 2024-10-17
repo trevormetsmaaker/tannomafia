@@ -1,0 +1,9 @@
+C:\Users\opilane\source\repos\tannomafia\tannomafia\obj\Debug\net8.0\tannomafia.csproj.AssemblyReference.cache
+C:\Users\opilane\source\repos\tannomafia\tannomafia\obj\Debug\net8.0\tannomafia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\opilane\source\repos\tannomafia\tannomafia\obj\Debug\net8.0\tannomafia.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\tannomafia\tannomafia\obj\Debug\net8.0\tannomafia.AssemblyInfo.cs
+C:\Users\opilane\source\repos\tannomafia\tannomafia\obj\Debug\net8.0\tannomafia.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\tannomafia\tannomafia\obj\Debug\net8.0\tannomafia.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\opilane\source\repos\tannomafia\tannomafia\obj\Debug\net8.0\tannomafia.RazorAssemblyInfo.cache
+C:\Users\opilane\source\repos\tannomafia\tannomafia\obj\Debug\net8.0\tannomafia.RazorAssemblyInfo.cs
+C:\Users\opilane\source\repos\tannomafia\tannomafia\obj\Debug\net8.0\tannomafia.sourcelink.json
