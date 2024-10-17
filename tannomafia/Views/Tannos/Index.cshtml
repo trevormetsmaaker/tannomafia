@@ -1,5 +1,37 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model IEnumerable<tannomafia.Models.Tannos.TannosIndexViewModel>
+
+    @{ int rowNumber = 1;}
+    <div><a asp-action="Add" asp-controller="Tannos" type="submit class="btn" btn-primary">Tanno is born</a></div>
+    @* User can pop out *@
+
+
+    <div class="h1">Your Titans:</div>
+    <from method="post">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    @* Later, once images have been implemented, add image here aswell*@
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Level</th>
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var titan in Model)
+            {
+                <tr>
+                    @* Later, once images have been implemented, add image here aswell*@
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Level</th>
+                </tr>
+                rowNumber++;
+            }
+        </tbody>
+        </table>
+    </from>
+    @* missing button for player profile*@
+    @* missing button for solar system page*@
+    @* missing button for player  activity history*@
