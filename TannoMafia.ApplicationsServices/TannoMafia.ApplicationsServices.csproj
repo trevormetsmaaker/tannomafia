@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TannoMafia.Core\TannoMafia.Core.csproj" />
+    <ProjectReference Include="..\TannoMafia.Data\TannoMafia.Data.csproj" />
+  </ItemGroup>
+
+</Project>
