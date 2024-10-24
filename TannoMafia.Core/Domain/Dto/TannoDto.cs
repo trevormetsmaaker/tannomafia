@@ -4,19 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TannoMafia.Core.Domain
+namespace TannoMafia.Core.Domain.Dto
 {
-
     public enum TannoType
     {
-        Sad, Happy, High, Hungry, Angry, Drunk
+        Happy, Sad, Angry, High, Hungry, Drunk
     }
 
     public enum TannoStatus
     {
-        Dead, Alive, Eating, Drinking, Smoking, High
+        Dead, Alive, High, Drinking, Eating, Smoking
     }
-    internal class Tanno
+    public class TannoDto
     {
         public Guid ID { get; set; }
         public string TannoName { get; set; }
@@ -35,8 +34,23 @@ namespace TannoMafia.Core.Domain
         public DateTime TannoWasBorn { get; set; }
         public DateTime TannoDied { get; set; }
 
+        
+        //image
+        /*
+        public List<iFormFiile> Files { get; set; }
+        public IEnumerable<FileToDatabaseDto> image { get; set; } = new List<FileToDatabaseDto>();
+        */
+        
+
+
         //db only
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
     }
-}
+}      
+
+
+
+
+    
+

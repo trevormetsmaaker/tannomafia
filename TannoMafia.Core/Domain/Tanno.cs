@@ -1,20 +1,22 @@
-﻿namespace tannomafia.Models.Tannos
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TannoMafia.Core.Domain
 {
 
     public enum TannoType
     {
-        Happy, Sad, Angry, High, Hungry, Drunk
+        Sad, Happy, High, Hungry, Angry, Drunk
     }
-public enum TannoStatus
+
+    public enum TannoStatus
     {
-        Dead, Alive,High, Drinking, Eating, Smoking
+        Dead, Alive, Eating, Drinking, Smoking, High
     }
-
-
-
-
-
-    public class TannoIndexViewModel
+    public class Tanno
     {
         public Guid ID { get; set; }
         public string TannoName { get; set; }
@@ -22,7 +24,7 @@ public enum TannoStatus
         public int TannoXP { get; set; }
         public int TannoXPNextLevel { get; set; }
         public int TannoLevel { get; set; }
-        public  TannoType TannoType { get; set; }
+        public TannoType TannoType { get; set; }
         public TannoStatus TannoStatus { get; set; }
         public int PrimaryAttackPower { get; set; }
         public string PrimaryAttackName { get; set; }
