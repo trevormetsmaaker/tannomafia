@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -36,10 +37,10 @@ namespace TannoMafia.Core.Domain.Dto
 
         
         //image
-        /*
-        public List<iFormFiile> Files { get; set; }
+        
+        public List<IFormFile> Files { get; set; }
         public IEnumerable<FileToDatabaseDto> image { get; set; } = new List<FileToDatabaseDto>();
-        */
+        
         
 
 

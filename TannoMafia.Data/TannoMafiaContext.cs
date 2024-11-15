@@ -8,8 +8,11 @@ using TannoMafia.Core.Domain;
 
 namespace TannoMafia.Data
 {
-    public class TannoMafiaContext
+    public class TannoMafiaContext : DbContext  
     {
+        public TannoMafiaContext(DbContextOptions<TannoMafiaContext> options) : base(options) { }
         public DbSet<Tanno> Tannos { get; set; }
+        public DbSet<FileToDatabase> FilesToDatabase { get; set; }
+
     }
 }
