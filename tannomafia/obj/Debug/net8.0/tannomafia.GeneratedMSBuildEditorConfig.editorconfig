@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\opilane\source\repos\trevormetsmaaker\tannomafia\tannomafia
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/opilane/source/repos/trevormetsmaaker/tannomafia/tannomafia/Views/Accounts/AddPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcQWRkUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/opilane/source/repos/trevormetsmaaker/tannomafia/tannomafia/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

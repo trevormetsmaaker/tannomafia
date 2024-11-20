@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tannomafia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb089381bfd65a01f7c9b6a8ca4a07a6cdbefc78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08bbe06c6db9094e2b4328898e3f4d95a8f47872")]
 [assembly: System.Reflection.AssemblyProductAttribute("tannomafia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tannomafia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
