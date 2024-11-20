@@ -1,6 +1,7 @@
 ﻿@model tannomafia.Models.Tanno.TannoDeleteViewModel
 
-<h1> @Html.DisplayFor(model => model.TitanName) </h1>
+<h1> @Html.DisplayFor(model => model.Tan
+    noName) </h1>
 
 <div>
     <h4> My lord, thyne Titan, be in a state of DESPAIR: </h4>
@@ -11,8 +12,8 @@
             @Html.DisplayFor(model => model.ID)
         </div>
         <div class="form-group row">
-            <label asp-for="TitanName" class="col-sm-2 col-form-label"></label>
-            @Html.DisplayFor(model => model.TitanName)
+            <label asp-for="TannoName" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.TannoName)
         </div>
         <div id="imagediv">
             @foreach (var image in Model.Image)
@@ -22,7 +23,7 @@
         </div>
 
         <div class="form-group row">
-            <label asp-for="TitanHealth" class="col-sm-2 col-form-label"></label>
+            <label asp-for="TannoHealth" class="col-sm-2 col-form-label"></label>
             @Html.DisplayFor(model => model.TitanHealth)
         </div>
         <div class="form-group row">
