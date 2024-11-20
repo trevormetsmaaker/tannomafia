@@ -1,4 +1,4 @@
-﻿😊using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using TannoMafia.Data;
 
 var builder = WebApplication.CreateBuilder(args);

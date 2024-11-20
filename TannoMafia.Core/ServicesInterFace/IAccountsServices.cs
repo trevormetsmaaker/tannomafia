@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TannoMafia.Core.ServicesInterFace
 {
-    internal interface IAccountsServices
+    public interface IAccountsServices
     {
     }
 }
